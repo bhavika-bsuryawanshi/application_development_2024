@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <!-- head (title and css + js file links) -->
+    <head>
+        <title> spooky monster match! </title>
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js" defer> </script>
+    </head>
+
+    <!-- body -->
+    <body>
+      
+        <!-- header (title) -->
+        <div id="header">
+            <h1> spooky monster match! </h1>
+            <h3> match your card(s) to win! </h3>
+        </div>
+
+        <!-- section 1: user selects two cards -->
+        <p> select the two cards that you guess you will find: </p>
+        
+        <!-- card options for user to select -->
+        <br>
+        <section id="cardchoose">
+
+            <!-- card one (skeleton) -->
+            <div id="usercard1"> 
+                <img src="img/skeleton.png"> </img>
+                <input type="checkbox" name="check1" value="check" id="checkMe1">
+            </div>
+          
+            <!-- card two (black cat) -->
+            <div id="usercard2"> 
+                <img src="img/blackcat.png"> </img>
+                <input type="checkbox" name="check2" value="check" id="checkMe2">
+            </div>
+          
+            <!-- card three (ghosts) -->
+            <div id="usercard3"> 
+                <img src="img/ghosts.png"> </img>
+                <input type="checkbox" name="check2" value="check" id="checkMe3">
+            </div>
+          
+            <!-- card four (bats) -->
+            <div id="usercard4"> 
+                <img src="img/bats.png"> </img>
+                <input type="checkbox" name="check2" value="check" id="checkMe4">
+            </div>
+          
+        </section>
+        <br>
+        <p> let's find out! </p>
+        
+        <!-- section 2: question 1 -->
+        <section id="question1">
+            <h2> Question 1: </h2>
+            <h3> A zombie, a mummy, and a ghost bought a house. It has all of the regular rooms except for one. What type of room won't you find? </h3>
+
+            <!-- question 1: user input (textbox) -->
+            <label for="q1"> (hint: "a ___ room") </label>
+            <input type="text" name="q1" value="Guess!" id="q1"> 
+            <button id="submit"> Submit </button>
+        </section>
+
+        <!-- question 1 correct card  -->
+        <section id="section1"></section>
+
+        <!-- section 3: question 2 -->
+        <section id="question2">
+            <br>
+            <h2> Question 2: </h2>
+            <h3> I don't have eyes, but once I did see. Once I had thoughts, but now I'm white and empty. What am I? </h3>
+
+            <!-- question 2: user input (dropdown) -->
+            <label for="q2"> Choose an answer: </label>
+            <select id="dropdown">
+                <option value="">--------</option>
+                <option value="bats">bats</option>
+                <option value="zombie">a zombie</option>
+                <option value="ghost">a ghost</option>
+                <option value="cat">a black cat</option>
+            </select>
+        </section>
+
+        <!-- question 2 correct card -->
+        <section id="section2"></section>
+
+        <!-- section 4: thank you! -->
+        <section> 
+            <h2> Thank you for playing! </h2>
+        </section>
+
+    </body>
+</html>
