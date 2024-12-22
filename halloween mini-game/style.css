@@ -1,0 +1,53 @@
+/* element type selectors */
+body {
+    background-color: rgb(244, 234, 255);
+}
+
+img {
+    width: 150px;
+    height: 200px;
+}
+
+label {
+    margin-left: 40%;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-style: italic;
+}
+
+/* class selectors */
+.card {
+    width: 150px;
+    height: 200px;
+}
+
+/* id selectors */
+#cardchoose {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#question1 {
+    justify-content: space-evenly;
+}
+
+/* multiple type selectors */
+#header, h2 {
+    background-color: rgb(109, 76, 134);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(230, 213, 247);
+}
+
+#section1 {
+    text-align: center;
+}
+
+#section2 {
+    text-align: center;
+}
