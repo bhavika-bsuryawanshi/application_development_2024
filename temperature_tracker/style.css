@@ -1,0 +1,75 @@
+*
+{
+    font-family: 'Garamond', serif;
+}
+
+h1
+{
+    padding-top: 10px;
+}
+
+h3
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#header
+{
+    background-color: rgb(228, 237, 249);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#submitTemp
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(61, 93, 192);
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(115, 141, 212);
+}
+
+#submitTemp:hover
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(115, 141, 212);
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(61, 93, 192);
+}
+
+#main
+{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#coldest
+{
+    background-color: rgb(221, 236, 255);
+    border: 2px solid rgb(48, 98, 164);
+}
+
+#hottest
+{
+    background-color: rgb(255, 215, 215);
+    border: 2px solid rgb(176, 34, 34);
+}
+
+#all
+{
+    background-color: rgb(237, 221, 255);
+    border: 2px solid rgb(86, 44, 133);
+}
+

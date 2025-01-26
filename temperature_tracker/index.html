@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Temperature Tracker </title>
+    <link href="style.css" rel="stylesheet">
+    <script src="model.js" defer> </script>
+    <script src="view.js" defer> </script>
+    <script src="controller.js" defer> </script>
+</head>
+<body>
+    <section id="header">
+        <h1> 🌀 Track the Record Temperatures! 🌀  </h1>
+        <label for="tempInput"> What's the current temperature? </label>
+        <input type="text" name="textInput" id="tempInput"> 
+        <button id="submitTemp"> Submit Temperature </button>
+    </section>
+    <br>
+    <section id="main">
+            <div id="coldest">
+                <h3> Coldest 3 Temperatures Recorded </h3>
+                <ol id="coldestList"></ol>
+            </div>
+            <div id="hottest">
+                <h3> Hottest 3 Temperatures Recorded </h3>
+                <ol id="hottestList"></ol>
+            </div>
+            <div id="all">
+                <h3> All Temperatures Recorded </h3>
+                <ol id="allList"> </ol>
+            </div>
+    </section>
+</body>
+</html>
