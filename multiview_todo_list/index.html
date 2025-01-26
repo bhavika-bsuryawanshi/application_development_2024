@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Multi-View To-Do List </title>
+    <link href="style.css" rel="stylesheet">
+    <script src="model.js" defer></script>
+    <script src="view.js" defer></script>
+    <script src="controller.js" defer></script>
+</head>
+<body>
+
+    <!-- header section - title and view selection -->
+    <section id="header">
+
+        <h1> Multi-View To-Do List </h1>
+        <h3> Select View: </h3>
+
+        <!-- table view -->
+        <label for="selectViewTable"> Table: </label>
+        <input type="radio" name="selectView" value="table" id="selectViewTable">
+        
+        <!-- cards view -->
+        <label for="selectViewCards"> Cards: </label>
+        <input type="radio" name="selectView" value="cards" id="selectViewCards">
+        
+        <!-- lists view -->
+        <label for="selectViewLists"> Lists: </label>
+        <input type="radio" name="selectView" value="lists" id="selectViewLists">
+
+        <button id="submitView"> Select View </button>
+
+    </section>
+    <br>    
+
+    <!-- input section - user input for task name,  priority, category, duration + submit button -->
+    <div id="userInput">
+        <h3> Enter an Item: </h3>
+        <!-- text input - task name -->
+        <label for="taskName"> Task Name: </label>
+        <input type="text" name="textInput1" id="taskName">
+
+        <!-- dropdown input - priority -->
+        <label for="priorityDropDown"> Priority: </label>
+        <select id="priorityDropdown"> </select>
+
+        <!-- dropdown input - category -->
+        <label for="categoryDropdown"> Category: </label>
+        <select id="categoryDropdown"> </select>
+
+        <!-- text input - duration -->
+        <label for="duration"> Duration: </label>
+        <input type="text" name="textInput2" id="duration">
+
+        <!-- button input - submit task -->
+        <button id="submitTask"> Submit Task </button>  
+    </div>
+    <br>    
+
+    <!-- total time display section -->
+    <section id="totalTimeDisplay">
+        <h4> Total Time: <span id=totalTime> </span> </h4>
+    </section>
+
+    <!-- main display - selected view displays here -->
+    <br>
+    <div id="mainDisplay"> <br> </div>
+
+</body>
+</html>

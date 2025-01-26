@@ -1,0 +1,129 @@
+/* element type selectors */
+*
+{
+    font-family: 'Garamond', serif;
+}
+
+body
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+div 
+{
+    background-color: aliceblue;
+    border: 1px solid lightslategray;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 5px;
+}
+
+h1
+{
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 25px;  
+    width: 350px;  
+    text-align: center;
+}
+
+h4 
+{
+    padding-right: 10px;
+}
+
+h3, h4 {
+    margin-top: 3px;  
+    margin-bottom: 3px;
+    padding-left: 10px;
+}
+
+h3, ul, li
+{
+    text-align: left;
+}
+
+th 
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: aliceblue;
+}
+
+td 
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+tr, td, th, table
+{
+    border: 1px solid lightslategray;
+    border-collapse: collapse;
+}
+
+label
+{
+    padding-left: 10px;
+}
+
+button
+{
+    margin-left: 10px;
+    background-color: aliceblue;
+    border: 2px solid lightslategray;
+    border-radius: 5px;
+}
+
+button:hover
+{
+    margin-left: 10px;
+    background-color: aliceblue;
+    border: 2px solid lightslategray;
+    border-radius: 5px;
+    box-shadow: 5px 2px 2px lightslategray;
+    background-color: rgb(205, 219, 238);
+}
+
+/* id selectors */
+#header
+{
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(205, 219, 238);
+    border-radius: 25px;
+}
+
+#mainDisplay
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+}
+
+#totalTimeDisplay
+{
+    background-color: aliceblue;
+    border: 1px solid lightslategray;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 120px;
+}
+
+
+
