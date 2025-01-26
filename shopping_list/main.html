@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Shopping List </title>
+    <link href="style.css" rel="stylesheet">
+    <script src="model.js" defer> </script>
+    <script src="view.js" defer> </script>
+    <script src="controller.js" defer> </script>
+</head>
+<body>
+
+    <section id="intro">
+
+        <h1> shopping list: ice-cream edition </h1>
+        <h5> ———————————••✦ ♡ ✦••——————————— </h5>
+
+    </section>
+    
+    <section id="inputs">
+
+        <!-- item name -->
+        <div> 
+            <label for="itemName"> Item Name: </label>
+            <input type="text" name="textinput1" id="itemName">
+        </div>
+
+        <!-- quantity -->
+        <div> 
+            <label for="quantity"> Quantity: </label>
+            <select id="quantity"></select>
+        </div>
+
+        <!-- priority -->
+        <div> 
+            <label for="priority"> Priority: </label>
+            <select id="priority"></select>
+        </div>
+
+        <!-- store name -->
+        <div> 
+            <label for="storeName"> Store Name: </label>
+            <select id="storeName"></select>
+        </div>
+
+        <!-- store section -->
+        <div> 
+            <label for="storeSection"> Type: </label>
+            <select id="storeSection"></select>
+        </div>
+
+        <!-- price per unit -->
+        <div> 
+            <label for="pricePerUnit"> Price Per Unit: </label>
+            <input type="text" name="textinput2" id="pricePerUnit">
+        </div>
+
+        <!-- button to add item -->
+        <div> 
+            <button id="addItem"> Add Item </button>  
+        </div>
+
+    </section>
+
+    <br>
+
+    <section id="list">
+        
+        <table id="shopList">
+            <thead>
+                <tr>
+                    <th> Status </th>
+                    <th> Item Name </th>
+                    <th> Quantity </th>
+                    <th> Priority </th>
+                    <th> Store </th>
+                    <th> Store Section </th>
+                    <th> Price </th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            <tfoot id="tp">
+                <td id="totalprice" colspan="6"> Total Price: </td> 
+                <td> </td>
+            </tfoot>
+            
+            
+        </table>
+
+    </section>
+</body>
+</html>

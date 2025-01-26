@@ -1,0 +1,68 @@
+/* IDs */
+* 
+{
+    font-family: 'Garamond';
+}
+
+#inputs 
+{
+    background-color: rgb(209, 227, 244);
+    padding: 30px;
+}
+
+#inputs, #list
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#intro
+{
+    text-align: center;
+}
+
+table, tr, th, td 
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+h1 
+{
+    color: rgb(73, 111, 146);
+    font-weight: bolder;
+    text-shadow: 2px 1px 1px rgb(178, 197, 215);
+}
+
+label 
+{
+    font-weight: bold;
+}
+#tp 
+{
+    text-align: center;
+    background-color: aliceblue;
+    font-style: italic;
+}
+
+#itemName:focus, #quantity:focus, #priority:focus, #storeName:focus, #storeSection:focus, #pricePerUnit:focus  
+{
+    box-shadow: 8px 5px 2px rgb(178, 197, 215);
+}
+
+#addItem 
+{
+    background-color: rgb(176, 198, 218);
+
+}
+
+#addItem:hover 
+{
+    box-shadow: 8px 5px 2px rgb(184, 195, 204);
+    background-color: rgb(146, 184, 228);
+}
+
